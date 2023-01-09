@@ -1,4 +1,3 @@
-<pre>
 let origBoard = Array.from(Array(9).keys());
 const huPlayer = "X";
 const aiPlayer = "O";
@@ -186,4 +185,3 @@ window.addEventListener("load", function() {
 	squares = document.querySelectorAll("#gameboard > div");
 	initGame();
 });
-</pre>
