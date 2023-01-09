@@ -11,13 +11,13 @@ let c;
 
 function initGame() {	
 	squares.forEach(div => div.addEventListener("click", (inp) => {
-		boxClicked(inp);
-	}));
+	boxClicked(inp);
+}));
 	
-	let newInp = document.querySelector(".buttonNext")
+let newInp = document.querySelector(".buttonNext")
 	newInp.addEventListener("click", () => {
-		newGame();
-	});
+	  newGame();
+  });
 }
 
 function boxClicked(inp) {
