@@ -62,7 +62,8 @@ function getAvailSpots(currentState) {
 }
 function checkWin(currentState, player) {	
 	if (player === undefined && //checking if player undefined so we dont intercept recursion.
-			currentState[0].className == currentState[1].className && currentState[1].className == 				  currentState[2].className && currentState[0].className !== "" ||
+			currentState[0].className == currentState[1].className && currentState[1].className == 
+			currentState[2].className && currentState[0].className !== "" ||
 			player === undefined &&
 			currentState[3].className == currentState[4].className && currentState[4].className ==
 			currentState[5].className && currentState[3].className !== "" ||
